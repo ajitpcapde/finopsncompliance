@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="headerGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0066CC"/>
+      <stop offset="100%" style="stop-color:#0099FF"/>
+    </linearGradient>
+    <linearGradient id="aiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#dc2626"/>
+      <stop offset="100%" style="stop-color:#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="threatGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7f1d1d"/>
+      <stop offset="100%" style="stop-color:#dc2626"/>
+    </linearGradient>
+    <filter id="shadow2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.1"/>
+    </filter>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="700" fill="#1a1a2e"/>
+  
+  <!-- Header -->
+  <rect x="20" y="20" width="1160" height="80" rx="12" fill="url(#headerGrad2)" filter="url(#shadow2)"/>
+  <text x="60" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.9)">☁️</text>
+  <text x="85" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" fill="white">Cloud Compliance Canvas</text>
+  <text x="60" y="75" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.8)">Enterprise AWS Governance Platform v6.0</text>
+  
+  <!-- Tab Navigation -->
+  <rect x="20" y="115" width="1160" height="40" rx="8" fill="#16213e" filter="url(#shadow2)"/>
+  <text x="50" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">📊 Dashboard</text>
+  <text x="150" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">🔐 Security</text>
+  <text x="240" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">💰 FinOps</text>
+  <text x="320" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">📋 Compliance</text>
+  <text x="420" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">🔄 Lifecycle</text>
+  <text x="515" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">📜 Policies</text>
+  <rect x="590" y="120" width="95" height="30" rx="6" fill="url(#aiGrad)"/>
+  <text x="605" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="white">🤖 AI Threat</text>
+  <text x="705" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">🐳 Container</text>
+  
+  <!-- AI Threat Header -->
+  <rect x="20" y="170" width="1160" height="60" rx="12" fill="url(#threatGrad)" filter="url(#shadow2)"/>
+  <text x="50" y="195" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.9)">🤖</text>
+  <text x="75" y="195" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="white">AI-Powered Threat Detection &amp; Analysis</text>
+  <text x="50" y="215" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.8)">Claude AI Integration • Real-time GuardDuty Analysis • Automated Remediation</text>
+  
+  <!-- Threat Status Banner -->
+  <circle cx="1100" cy="200" r="8" fill="#ef4444" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1115" y="205" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#ef4444">3 Active Threats</text>
+  
+  <!-- Threat List Panel -->
+  <rect x="20" y="245" width="480" height="435" rx="12" fill="#16213e" filter="url(#shadow2)"/>
+  <text x="40" y="275" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="white">Active Threats</text>
+  
+  <!-- Critical Threat 1 -->
+  <rect x="40" y="295" width="440" height="85" rx="8" fill="#7f1d1d" stroke="#dc2626" stroke-width="1"/>
+  <rect x="40" y="295" width="4" height="85" rx="2" fill="#dc2626"/>
+  <text x="60" y="318" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#fca5a5">CRITICAL</text>
+  <text x="60" y="338" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="white">UnauthorizedAccess:EC2/SSHBruteForce</text>
+  <text x="60" y="358" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#94a3b8">Account: 222222222222 • Region: us-east-1</text>
+  <text x="60" y="373" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">Instance: i-0abc123def456 • 2,847 attempts</text>
+  <rect x="400" y="305" width="70" height="24" rx="4" fill="#dc2626"/>
+  <text x="415" y="322" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="white">Analyze</text>
+  
+  <!-- High Threat 2 -->
+  <rect x="40" y="390" width="440" height="85" rx="8" fill="#78350f" stroke="#f59e0b" stroke-width="1"/>
+  <rect x="40" y="390" width="4" height="85" rx="2" fill="#f59e0b"/>
+  <text x="60" y="413" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#fcd34d">HIGH</text>
+  <text x="60" y="433" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="white">Recon:IAMUser/NetworkPermissions</text>
+  <text x="60" y="453" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#94a3b8">Account: 333333333333 • Region: us-west-2</text>
+  <text x="60" y="468" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">User: admin-user • 156 API calls</text>
+  <rect x="400" y="400" width="70" height="24" rx="4" fill="#f59e0b"/>
+  <text x="415" y="417" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="white">Analyze</text>
+  
+  <!-- Medium Threat 3 -->
+  <rect x="40" y="485" width="440" height="85" rx="8" fill="#1e3a5f" stroke="#3b82f6" stroke-width="1"/>
+  <rect x="40" y="485" width="4" height="85" rx="2" fill="#3b82f6"/>
+  <text x="60" y="508" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#93c5fd">MEDIUM</text>
+  <text x="60" y="528" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="white">Policy:S3/BucketPublicAccess</text>
+  <text x="60" y="548" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#94a3b8">Account: 444444444444 • Region: eu-west-1</text>
+  <text x="60" y="563" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">Bucket: company-data-backup • Public ACL</text>
+  <rect x="400" y="495" width="70" height="24" rx="4" fill="#3b82f6"/>
+  <text x="415" y="512" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="white">Analyze</text>
+  
+  <!-- Threat Stats -->
+  <rect x="40" y="585" width="130" height="75" rx="8" fill="#0f172a"/>
+  <text x="55" y="610" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">Last 24 Hours</text>
+  <text x="55" y="640" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#ef4444">47</text>
+  <text x="90" y="640" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#94a3b8">threats</text>
+  
+  <rect x="185" y="585" width="130" height="75" rx="8" fill="#0f172a"/>
+  <text x="200" y="610" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">Auto-Remediated</text>
+  <text x="200" y="640" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#10b981">38</text>
+  <text x="240" y="640" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#94a3b8">81%</text>
+  
+  <rect x="330" y="585" width="130" height="75" rx="8" fill="#0f172a"/>
+  <text x="345" y="610" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">Avg Response</text>
+  <text x="345" y="640" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#3b82f6">2.3</text>
+  <text x="385" y="640" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#94a3b8">mins</text>
+  
+  <!-- AI Analysis Panel -->
+  <rect x="515" y="245" width="665" height="435" rx="12" fill="#16213e" filter="url(#shadow2)"/>
+  <rect x="515" y="245" width="665" height="4" rx="2" fill="url(#aiGrad)"/>
+  
+  <!-- AI Header -->
+  <circle cx="545" cy="285" r="18" fill="#7f1d1d"/>
+  <text x="538" y="291" font-family="Segoe UI, Arial, sans-serif" font-size="16">🤖</text>
+  <text x="575" y="282" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="white">Claude AI Threat Analysis</text>
+  <text x="575" y="298" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">Analysis completed in 1.8 seconds</text>
+  
+  <!-- AI Response -->
+  <text x="535" y="335" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#ef4444">🚨 Critical Threat Assessment</text>
+  <text x="535" y="360" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#d1d5db">This SSH brute force attack shows a coordinated pattern targeting your</text>
+  <text x="535" y="378" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#d1d5db">production EC2 instance with 2,847 login attempts from 23 unique IPs.</text>
+  
+  <text x="535" y="410" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#f59e0b">⚡ Immediate Actions Required</text>
+  <text x="535" y="435" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#d1d5db">1. Block source IPs via Security Group (NACL recommended)</text>
+  <text x="535" y="453" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#d1d5db">2. Rotate SSH keys for the affected instance</text>
+  <text x="535" y="471" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#d1d5db">3. Enable AWS Systems Manager Session Manager</text>
+  <text x="535" y="489" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#d1d5db">4. Consider moving SSH to non-standard port</text>
+  
+  <text x="535" y="520" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#10b981">🛡️ Generated Remediation</text>
+  
+  <!-- Code Block -->
+  <rect x="535" y="535" width="625" height="80" rx="6" fill="#0f172a"/>
+  <text x="550" y="555" font-family="Consolas, monospace" font-size="10" fill="#10b981"># Auto-generated Security Group rule</text>
+  <text x="550" y="573" font-family="Consolas, monospace" font-size="10" fill="#d1d5db">aws ec2 revoke-security-group-ingress \</text>
+  <text x="550" y="591" font-family="Consolas, monospace" font-size="10" fill="#d1d5db">  --group-id sg-0abc123 --protocol tcp --port 22 \</text>
+  <text x="550" y="609" font-family="Consolas, monospace" font-size="10" fill="#d1d5db">  --cidr 0.0.0.0/0</text>
+  
+  <!-- Action Buttons -->
+  <rect x="535" y="630" width="150" height="40" rx="8" fill="#dc2626"/>
+  <text x="560" y="655" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="white">🚀 Auto-Remediate</text>
+  
+  <rect x="700" y="630" width="130" height="40" rx="8" fill="#1e3a8a"/>
+  <text x="720" y="655" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="white">📋 Create Ticket</text>
+  
+  <rect x="845" y="630" width="130" height="40" rx="8" fill="#374151" stroke="#6b7280"/>
+  <text x="865" y="655" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="white">📥 Export Report</text>
+  
+  <rect x="990" y="630" width="100" height="40" rx="8" fill="#374151" stroke="#6b7280"/>
+  <text x="1010" y="655" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="white">🔕 Suppress</text>
+</svg>

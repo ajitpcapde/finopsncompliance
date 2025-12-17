@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="headerGrad4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0066CC"/>
+      <stop offset="100%" style="stop-color:#0099FF"/>
+    </linearGradient>
+    <linearGradient id="complianceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+    <filter id="shadow4" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="700" fill="#f5f3ff"/>
+  
+  <!-- Header -->
+  <rect x="20" y="20" width="1160" height="80" rx="12" fill="url(#headerGrad4)" filter="url(#shadow4)"/>
+  <text x="60" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.9)">☁️</text>
+  <text x="85" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" fill="white">Cloud Compliance Canvas</text>
+  <text x="60" y="75" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.8)">Enterprise AWS Governance Platform v6.0</text>
+  
+  <!-- Tab Navigation -->
+  <rect x="20" y="115" width="1160" height="40" rx="8" fill="white" filter="url(#shadow4)"/>
+  <text x="50" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">📊 Dashboard</text>
+  <text x="150" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">🔐 Security</text>
+  <text x="240" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">💰 FinOps</text>
+  <rect x="305" y="120" width="100" height="30" rx="6" fill="url(#complianceGrad)"/>
+  <text x="320" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="white">📋 Compliance</text>
+  <text x="425" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">🔄 Lifecycle</text>
+  <text x="520" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">📜 Policies</text>
+  <text x="605" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">🤖 AI Threat</text>
+  
+  <!-- Compliance Header Banner -->
+  <rect x="20" y="170" width="1160" height="60" rx="12" fill="url(#complianceGrad)" filter="url(#shadow4)"/>
+  <text x="50" y="195" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.9)">📋</text>
+  <text x="75" y="195" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="white">Compliance Framework Manager</text>
+  <text x="50" y="215" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.8)">SOC 2 Type II • PCI-DSS v4.0 • HIPAA • GDPR • ISO 27001 • CIS AWS Benchmark</text>
+  
+  <!-- Overall Compliance Score -->
+  <rect x="1020" y="180" width="140" height="40" rx="8" fill="rgba(255,255,255,0.2)"/>
+  <text x="1040" y="200" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="rgba(255,255,255,0.8)">Overall Score</text>
+  <text x="1100" y="210" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="white">94.2%</text>
+  
+  <!-- Framework Cards -->
+  <!-- SOC 2 -->
+  <rect x="20" y="245" width="380" height="140" rx="12" fill="white" filter="url(#shadow4)"/>
+  <rect x="20" y="245" width="380" height="4" rx="2" fill="#10b981"/>
+  <text x="40" y="275" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#1e293b">SOC 2 Type II</text>
+  <text x="40" y="310" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700" fill="#10b981">96%</text>
+  <text x="40" y="335" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">289/301 controls passing</text>
+  <rect x="40" y="350" width="340" height="8" rx="4" fill="#e2e8f0"/>
+  <rect x="40" y="350" width="326" height="8" rx="4" fill="#10b981"/>
+  <text x="330" y="275" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#10b981">✓ Certified</text>
+  
+  <!-- PCI-DSS -->
+  <rect x="415" y="245" width="380" height="140" rx="12" fill="white" filter="url(#shadow4)"/>
+  <rect x="415" y="245" width="380" height="4" rx="2" fill="#3b82f6"/>
+  <text x="435" y="275" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#1e293b">PCI-DSS v4.0</text>
+  <text x="435" y="310" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700" fill="#3b82f6">91%</text>
+  <text x="435" y="335" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">234/257 requirements met</text>
+  <rect x="435" y="350" width="340" height="8" rx="4" fill="#e2e8f0"/>
+  <rect x="435" y="350" width="309" height="8" rx="4" fill="#3b82f6"/>
+  <text x="725" y="275" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#f59e0b">⚠ 23 gaps</text>
+  
+  <!-- HIPAA -->
+  <rect x="810" y="245" width="370" height="140" rx="12" fill="white" filter="url(#shadow4)"/>
+  <rect x="810" y="245" width="370" height="4" rx="2" fill="#8b5cf6"/>
+  <text x="830" y="275" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#1e293b">HIPAA</text>
+  <text x="830" y="310" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700" fill="#8b5cf6">89%</text>
+  <text x="830" y="335" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">167/188 safeguards implemented</text>
+  <rect x="830" y="350" width="330" height="8" rx="4" fill="#e2e8f0"/>
+  <rect x="830" y="350" width="294" height="8" rx="4" fill="#8b5cf6"/>
+  <text x="1100" y="275" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#f59e0b">⚠ 21 gaps</text>
+  
+  <!-- GDPR -->
+  <rect x="20" y="400" width="285" height="140" rx="12" fill="white" filter="url(#shadow4)"/>
+  <rect x="20" y="400" width="285" height="4" rx="2" fill="#06b6d4"/>
+  <text x="40" y="430" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#1e293b">GDPR</text>
+  <text x="40" y="465" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700" fill="#06b6d4">97%</text>
+  <text x="40" y="490" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">98/101 articles compliant</text>
+  <rect x="40" y="505" width="245" height="8" rx="4" fill="#e2e8f0"/>
+  <rect x="40" y="505" width="237" height="8" rx="4" fill="#06b6d4"/>
+  <text x="230" y="430" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#10b981">✓ Compliant</text>
+  
+  <!-- ISO 27001 -->
+  <rect x="320" y="400" width="285" height="140" rx="12" fill="white" filter="url(#shadow4)"/>
+  <rect x="320" y="400" width="285" height="4" rx="2" fill="#f59e0b"/>
+  <text x="340" y="430" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#1e293b">ISO 27001</text>
+  <text x="340" y="465" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700" fill="#f59e0b">93%</text>
+  <text x="340" y="490" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">127/137 controls implemented</text>
+  <rect x="340" y="505" width="245" height="8" rx="4" fill="#e2e8f0"/>
+  <rect x="340" y="505" width="228" height="8" rx="4" fill="#f59e0b"/>
+  <text x="530" y="430" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#10b981">✓ Certified</text>
+  
+  <!-- CIS AWS -->
+  <rect x="620" y="400" width="285" height="140" rx="12" fill="white" filter="url(#shadow4)"/>
+  <rect x="620" y="400" width="285" height="4" rx="2" fill="#ec4899"/>
+  <text x="640" y="430" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#1e293b">CIS AWS Benchmark</text>
+  <text x="640" y="465" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700" fill="#ec4899">84%</text>
+  <text x="640" y="490" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">89/106 checks passing</text>
+  <rect x="640" y="505" width="245" height="8" rx="4" fill="#e2e8f0"/>
+  <rect x="640" y="505" width="206" height="8" rx="4" fill="#ec4899"/>
+  <text x="830" y="430" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#f59e0b">⚠ 17 gaps</text>
+  
+  <!-- NIST CSF -->
+  <rect x="920" y="400" width="260" height="140" rx="12" fill="white" filter="url(#shadow4)"/>
+  <rect x="920" y="400" width="260" height="4" rx="2" fill="#ef4444"/>
+  <text x="940" y="430" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#1e293b">NIST CSF 2.0</text>
+  <text x="940" y="465" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700" fill="#ef4444">88%</text>
+  <text x="940" y="490" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">108 subcategories assessed</text>
+  <rect x="940" y="505" width="220" height="8" rx="4" fill="#e2e8f0"/>
+  <rect x="940" y="505" width="194" height="8" rx="4" fill="#ef4444"/>
+  <text x="1105" y="430" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#f59e0b">⚠ 13 gaps</text>
+  
+  <!-- Evidence Collection Panel -->
+  <rect x="20" y="555" width="575" height="125" rx="12" fill="white" filter="url(#shadow4)"/>
+  <text x="40" y="585" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#1e293b">📁 Evidence Collection</text>
+  
+  <rect x="40" y="605" width="160" height="55" rx="6" fill="#f0fdf4"/>
+  <text x="55" y="625" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">Auto-Collected</text>
+  <text x="55" y="648" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#10b981">2,847</text>
+  
+  <rect x="215" y="605" width="160" height="55" rx="6" fill="#eff6ff"/>
+  <text x="230" y="625" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">Pending Review</text>
+  <text x="230" y="648" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#3b82f6">156</text>
+  
+  <rect x="390" y="605" width="160" height="55" rx="6" fill="#fef3c7"/>
+  <text x="405" y="625" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">Expiring Soon</text>
+  <text x="405" y="648" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#f59e0b">23</text>
+  
+  <!-- Audit Schedule Panel -->
+  <rect x="610" y="555" width="570" height="125" rx="12" fill="white" filter="url(#shadow4)"/>
+  <text x="630" y="585" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#1e293b">📅 Upcoming Audits</text>
+  
+  <rect x="630" y="605" width="250" height="25" rx="4" fill="#fef2f2"/>
+  <text x="645" y="623" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#dc2626">Dec 20 • SOC 2 Type II Annual Audit</text>
+  
+  <rect x="630" y="638" width="250" height="25" rx="4" fill="#fef3c7"/>
+  <text x="645" y="656" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#ca8a04">Jan 15 • PCI-DSS Quarterly Review</text>
+  
+  <rect x="895" y="605" width="250" height="25" rx="4" fill="#f0fdf4"/>
+  <text x="910" y="623" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#059669">Feb 1 • ISO 27001 Surveillance</text>
+  
+  <rect x="895" y="638" width="250" height="25" rx="4" fill="#eff6ff"/>
+  <text x="910" y="656" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#2563eb">Mar 10 • HIPAA Assessment</text>
+</svg>
