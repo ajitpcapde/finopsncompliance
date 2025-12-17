@@ -1,0 +1,10 @@
+streamlit
+boto3
+pandas
+plotly
+python-dateutil
+python-dotenv
+anthropic
+numpy
+openpyxl
+cryptography
